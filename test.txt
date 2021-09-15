@@ -1,0 +1,46 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bccs="http://bccs.qlctkt.viettel.com/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<bccs:jobCreationBccsShop>
+		<!--Optional:-->
+			<gtm>
+				<parentAcc/>
+				<parentServiceCode/>
+				<account>0342064728</account>
+				<appointDate/>
+				<cmVersion>9</cmVersion>
+				<contactName>Công ty ABC</contactName>
+				<contract_no>10001327617/CBS1/22062015</contract_no>
+				<cusAddress>Hà Nội, Nam Từ Liêm, Dịch Vọng Hậu, 12 Liễu Giai</cusAddress>
+				<cusName>Công ty ABC</cusName>
+				<dateSales>26/05/2021 14:57:43</dateSales>
+				<deployAddress>dốc D khu 7 cách bún Ngân Trình khoảng 300m</deployAddress>
+				<deployAddressCode>H004011001</deployAddressCode>
+				<deptCode/>
+				<description/>
+				<identityNum>1233968826 </identityNum>
+				<pass>d6847257b35cbcd85f63724936bc76a5</pass>
+				<user>6dcdc7f000c3e56b</user>
+				<productCode>Basic</productCode>
+				<reqType>2</reqType>
+				<seller>HANTT</seller>
+				<sellerFullName>Nguyễn Thị Hà</sellerFullName>
+				<seller_phone>0347397888</seller_phone>
+				<serviceLevel>Basic - Basic</serviceLevel>
+				<serviceTypeCode>VM</serviceTypeCode>
+				<technology/>
+				<tel_fax>0342064726</tel_fax>
+				<tel_mobile>0342064726?</tel_mobile>
+				<telephone>0342064726</telephone>
+				<customerOrderId>60000057214</customerOrderId>
+				<subOrderId>60000182908</subOrderId>
+				<districtCode>H004</districtCode>
+				<cusGroupType>1</cusGroupType>
+				<staffCode/>
+				<passVasXmio>abc123@</passVasXmio>
+				<isGlineExist>1</isGlineExist>
+				<reqId>60000182908</reqId>
+			</gtm>
+		</bccs:jobCreationBccsShop>
+	</soapenv:Body>
+</soapenv:Envelope>
