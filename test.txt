@@ -44,3 +44,5 @@
 		</bccs:jobCreationBccsShop>
 	</soapenv:Body>
 </soapenv:Envelope>
+http://10.60.108.84:9009/NIMS_WS_BCCS2_XGSPON/BccsWS?wsdl
+lineAccountNetWork
