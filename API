@@ -1,0 +1,3 @@
+BccsSaleController/onLoadSerialSDWanActiveSub
+post
+requet :userAssignId, taskId
