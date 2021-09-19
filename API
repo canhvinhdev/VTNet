@@ -1,3 +1,27 @@
-BccsSaleController/onLoadSerialSDWanActiveSub
-post
-requet :userAssignId, taskId
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://order.service.sale.bccs.viettel.com/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-32ce50e8-4a5d-4040-af71-c3428d92daa7">
+            <wsse:Username>sale</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">sale</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <web:genericWebInfo xmlns:web="http://service.ws.viettel.com/">
+         <web:language>vi</web:language>
+         <web:country>VN</web:country>
+         <web:ipAddress>10.240.232.15</web:ipAddress>
+         <web:portAddress>#PortAddress</web:portAddress>
+         <web:sessionId>#SessionId</web:sessionId>
+         <web:staffCode>tms_caugiay</web:staffCode>
+         <web:shopCode>338</web:shopCode>
+      </web:genericWebInfo>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ord:loadSerialSdWan>
+         <!--Optional:-->
+         <areaCode>H004</areaCode><staffIdNo>012428901</staffIdNo><subOrderId>60000182908</subOrderId>
+      </ord:loadSerialSdWan>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:loadSerialSdWanResponse xmlns:ns2="http://order.service.sale.bccs.viettel.com/" xmlns:ns3="http://webservice.pm.viettel.com/"><return><description>Mã yêu cầu không tồn tại</description><responseCode>false</responseCode></return></ns2:loadSerialSdWanResponse></soap:Body></soap:Envelope>
