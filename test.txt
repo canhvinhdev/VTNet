@@ -70,7 +70,7 @@
   <inVtnetwork>1</inVtnetwork>
   <lineAccountNetWork>h004_a_line_linh28</lineAccountNetWork>
 </gtm></bccs:jobCreationBccsShop>
-
+<isGlineExist>1</isGlineExist>
 
 
 s2="http://bccs.qlctkt.viettel.com/"><return><resultCode>1</resultCode></return></ns2:jobCreationBccsShopResponse></S:Body></S:Envelope
