@@ -1,2 +1,3 @@
-<![CDATA[<ParamInputBO><accountOrIsdn>h004_sdw_txt4</accountOrIsdn><serviceType>M3</serviceType><shopCode>H004007</shopCode><imSerial>Thao0003</imSerial><subOrderId>161604</subOrderId><customerOrderId>127743</customerOrderId><loginName>tms_caugiay</loginName><devicePass>123456a@</devicePass><deviceCode>SDWAN_01</deviceCode><taskId>184301</taskId></ParamInputBO>]]>
-[BCCS]: [SALE1989] Không tìm thấy yêu cầu!
+<![CDATA[<ParamInputBO><accountOrIsdn>h004_sdw_txt8</accountOrIsdn><serviceType>M3</serviceType><shopCode>H004007</shopCode><imSerial>Thao0003</imSerial><subOrderId>161665</subOrderId><customerOrderId>127801</customerOrderId><loginName>tms_caugiay</loginName><ip>172.168.0.109</ip><devicePass>123456a@</devicePass><deviceCode>SDWAN_01</deviceCode><taskId>184366</taskId></ParamInputBO>]]>
+
+ERR_REASON_NOTFOUND
