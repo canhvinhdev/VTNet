@@ -1,92 +1,76 @@
-{
-   "account":"h004_sdw_l13",
-   "appointDate":"22/09/2021 00:00:00",
-   "bandwidth":"",
-   "cmVersion":2,
-   "contactName":"Linh",
-   "contractNo":"5000055874/VT/20092021",
-   "cusAddress":"Tổ 1, Yên Hòa Cầu Giấy Hà Nội",
-   "cusName":"Linh",
-   "dateSales":"21/09/2021 08:54:39",
-   "deployAddress":"Tổ 1, Yên Hòa Cầu Giấy Hà Nội",
-   "deployAddressCode":"H004007002001",
-   "deptCode":"HNI09",
-   "description":"Thực hiện tiếp nhận yêu cầu, bỏ qua khảo sát . ",
-   "deviceCustomer":2,
-   "identityNum":"174577410",
-   "isGlineExist":0,
-   "isMultilPointService":0,
-   "subId":60000202241,
-   "lineAccount":"h004_line_linh106",
-   "moreService":[
-      {
-         "parentReq":127805,
-         "serviceCode":"M3",
-         "subReq":161669,
-         "productCode":"SDWAN"
-      }
-   ],
-   "pass":"d6847257b35cbcd85f63724936bc76a5",
-   "productCode":"SDWAN",
-   "reqId":13791789973,
-   "reqType":2,
-   "seller":"VTT1",
-   "sellerFullName":"vtt1",
-   "sellerPhone":"0965514332",
-   "serviceLevel":"SDWAN - Linh test",
-   "serviceTypeCode":"M3",
-   "speed":"",
-   "technology":0,
-   "telFax":"0334934400",
-   "telMobile":"0334934400",
-   "telephone":"0334934400",
-   "user":"6dcdc7f000c3e56b",
-   "districtCode":"H004007",
-   "customerOrderId":127805,
-   "subOrderId":161669,
-   "changeDeviceType":0,
-   "startDate":"22/09/2021 00:00:00",
-   "lstStock":[
-      {
-         "stockTypeId":28984,
-         "quantity":1,
-         "stockModelCode":"ALU_I240WA",
-         "stockModelName":"Thiết bị ALU_I240WA có Wifi - VoIP",
-         "isUplink":1
-      },
-      {
-         "stockTypeId":27264,
-         "quantity":1,
-         "stockModelCode":"ONT_H640DW_BH",
-         "stockModelName":"Thiết bị ONT H640DW_BH",
-         "isUplink":1
-      },
-      {
-         "stockTypeId":27264,
-         "quantity":1,
-         "stockModelCode":"ONT_H640DW_BH",
-         "stockModelName":"Thiết bị ONT H640DW_BH",
-         "isUplink":1
-      }
-   ],
-   "listTaskParam":[
-      {
-         "keyParam":"busType",
-         "nameParam":"BUS_TYPE",
-         "valueParam":"VTL"
-      },
-      {
-         "keyParam":"cusType",
-         "nameParam":"Loại khách hàng",
-         "valueParam":"Chi nhánh kinh doanh Viettel"
-      },
-      {
-         "keyParam":"cusGroup",
-         "nameParam":"Nhóm khách hàng",
-         "valueParam":"Khách hàng doanh nghiệp"
-      }
-   ],
-   "cusGroupType":"2",
-   "inVtnetwork":"1",
-   "lineAccountNetWork":"h004_a_line_linh151"
-}
+<bccs:jobCreationBccsShop><gtm>
+  <account>h004_sdw_hl17</account>
+  <appointDate>23/09/2021 00:00:00</appointDate>
+  <bandwidth></bandwidth>
+  <cmVersion>2</cmVersion>
+  <contactName>Hoài Linh</contactName>
+  <contract_no>5000055960/VT/21092021</contract_no>
+  <cusAddress>Trung K?nh C?u Gi?y Hà N?i</cusAddress>
+  <cusName>Hoài Linh</cusName>
+  <dateSales>21/09/2021 15:00:04</dateSales>
+  <deployAddress>Trung K?nh C?u Gi?y Hà N?i</deployAddress>
+  <deployAddressCode>H004007008</deployAddressCode>
+  <deptCode>HNI14</deptCode>
+  <description>Th?c hi?n ti?p nh?n yêu c?u, b? qua kh?o sát . </description>
+  <deviceCustomer>2</deviceCustomer>
+  <identityNum>174566288</identityNum>
+  <isGlineExist>0</isGlineExist>
+  <isMultilPointService>0</isMultilPointService>
+  <subId>60000202395</subId>
+  <lineAccount>h004_line_linhh27</lineAccount>
+  <moreService>
+    <parentReq>127897</parentReq>
+    <serviceCode>M3</serviceCode>
+    <subReq>161805</subReq>
+    <productCode>SDWAN</productCode>
+  </moreService>
+  <pass>ENC(c027ef4e443780a61bc9e418938afa26)</pass>
+  <productCode>SDWAN</productCode>
+  <reqId>13791790999</reqId>
+  <reqType>2</reqType>
+  <seller>VTT1</seller>
+  <sellerFullName>vtt1</sellerFullName>
+  <seller_phone>0965514332</seller_phone>
+  <serviceLevel>SDWAN - Linh test</serviceLevel>
+  <serviceTypeCode>M3</serviceTypeCode>
+  <speed></speed>
+  <technology>0</technology>
+  <tel_fax>0976333222</tel_fax>
+  <tel_mobile>0976333222</tel_mobile>
+  <telephone>0976333222</telephone>
+  <user>6dcdc7f000c3e56b</user>
+  <districtCode>H004007</districtCode>
+  <customerOrderId>127897</customerOrderId>
+  <subOrderId>161805</subOrderId>
+  <changeDeviceType>0</changeDeviceType>
+  <startDate>23/09/2021 00:00:00</startDate>
+  <lstStock>
+    <stockTypeId>45686</stockTypeId>
+    <quantity>1</quantity>
+    <stockModelCode>SDWAN_01</stockModelCode>
+    <stockModelName>SDWAN_01</stockModelName>
+    <isUplink>1</isUplink>
+  </lstStock>
+  <listTaskParam>
+    <keyParam>busType</keyParam>
+    <nameParam>BUS_TYPE</nameParam>
+    <valueParam>VIE</valueParam>
+  </listTaskParam>
+  <listTaskParam>
+    <keyParam>cusType</keyParam>
+    <nameParam>Lo?i khách hàng</nameParam>
+    <valueParam>Tu nhan trong nuoc</valueParam>
+  </listTaskParam>
+  <listTaskParam>
+    <keyParam>cusGroup</keyParam>
+    <nameParam>Nhóm khách hàng</nameParam>
+    <valueParam>Khách hàng cá nhân trong nu?c</valueParam>
+  </listTaskParam>
+  <cusGroupType>1</cusGroupType>
+  <inVtnetwork>1</inVtnetwork>
+  <lineAccountNetWork>h004_a_line_linh28</lineAccountNetWork>
+</gtm></bccs:jobCreationBccsShop>
+
+
+
+s2="http://bccs.qlctkt.viettel.com/"><return><resultCode>1</resultCode></return></ns2:jobCreationBccsShopResponse></S:Body></S:Envelope
