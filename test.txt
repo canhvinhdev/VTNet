@@ -72,5 +72,5 @@
 </gtm></bccs:jobCreationBccsShop>
 <isGlineExist>1</isGlineExist>
 
-
+http://10.60.129.245:8010/KTTS_SYNC_WS/QLCTKTSyncWS?wsdl
 s2="http://bccs.qlctkt.viettel.com/"><return><resultCode>1</resultCode></return></ns2:jobCreationBccsShopResponse></S:Body></S:Envelope
