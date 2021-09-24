@@ -71,6 +71,6 @@
   <lineAccountNetWork>h004_a_line_linh28</lineAccountNetWork>
 </gtm></bccs:jobCreationBccsShop>
 <isGlineExist>1</isGlineExist>
-
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dataSource' available
 http://10.60.129.245:8010/KTTS_SYNC_WS/QLCTKTSyncWS?wsdl
 s2="http://bccs.qlctkt.viettel.com/"><return><resultCode>1</resultCode></return></ns2:jobCreationBccsShopResponse></S:Body></S:Envelope
