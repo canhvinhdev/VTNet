@@ -77,7 +77,7 @@ s2="http://bccs.qlctkt.viettel.com/"><return><resultCode>1</resultCode></return>
 
 
 
-
+npm config set registry http://10.240.201.50:8081/repository/npm/
 jdbc.driverClassName=f51f2109a7e795af74d7885cf97880aff4fcff1b59949b064ff3b2f92440684d
 jdbc.url=906cb53fd0c4499aac326cbc56d4c18411f99b3e510e0a76a579805b4ab5feebaacdce7f764cc6f2d863521a748349be
 jdbc.username=7e808787b71afaeb1ea24b7af89d5d6e
