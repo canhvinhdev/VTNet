@@ -75,7 +75,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
 http://10.60.129.245:8010/KTTS_SYNC_WS/QLCTKTSyncWS?wsdl
 s2="http://bccs.qlctkt.viettel.com/"><return><resultCode>1</resultCode></return></ns2:jobCreationBccsShopResponse></S:Body></S:Envelope
 
-
+https://nbi.viettelhomewifi.com/viettel/north/devinfo?_ak=viettel&_ts=1612681743&SN=ZTEEH7VL4400010&_signature=b96193f28f8a3eb514c635db0ccfdf5407d19ac8
 
 npm config set registry http://10.240.201.50:8081/repository/npm/
 jdbc.driverClassName=f51f2109a7e795af74d7885cf97880aff4fcff1b59949b064ff3b2f92440684d
