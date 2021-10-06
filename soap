@@ -1,0 +1,70 @@
+{
+  "subOrderId": 29160475,
+  "account": "C975000492",
+  "appointDate": "29/09/2021 15:28:14",
+  "bandwidth": "",
+  "cableBoxCode": "TNH0100-DN02-SN07-SP02",
+  "cmVersion": 2,
+  "contactName": "NGUYỄN THỊ THU TRANG",
+  "contractNo": "26387/1000853100/01112016",
+  "cusAddress": "Hẽm sau cầm đồ Ngọc Hương, An Thạnh Bến Cầu Tây Ninh",
+  "cusName": "NGUYỄN THỊ THU TRANG",
+  "dateSales": "28/09/2021 15:28:14",
+  "deployAddress": "Hẽm sau cầm đồ Ngọc Hương, An Thạnh Bến Cầu Tây Ninh",
+  "deployAddressCode": "T066007009",
+  "deptCode": "T066009",
+  "description": "Sinh công việc thêm thiết bị",
+  "destinationId": 13746361,
+  "deviceCustomer": 2,
+  "deviceType": 1,
+  "identityNum": "291176725",
+  "isGlineExist": 1,
+  "isMultilPointService": 0,
+  "subId": 30080672364,
+  "lineAccount": "t066_gline_trangntt49",
+  "moreService": [
+    {
+      "parentReq": 26080345,
+      "serviceCode": "G",
+      "subReq": 29160475,
+      "productCode": "HCAM7"
+    }
+  ],
+  "numberPoint": 1,
+  "pass": "d6847257b35cbcd85f63724936bc76a5",
+  "productCode": "HCAM7",
+  "reqType": 57,
+  "seller": "MINHLV_TNH_DDV",
+  "sellerFullName": "Lê Văn Minh",
+  "sellerPhone": "0868632714",
+  "serviceLevel": "HCAM7 - HCAM7",
+  "serviceTypeCode": "G",
+  "speed": "",
+  "stationCode": "TNH0100",
+  "technology": 4,
+  "telFax": "0975000492",
+  "telMobile": "0975000492",
+  "telephone": "0975000492",
+  "user": "6dcdc7f000c3e56b",
+  "districtCode": "T066007",
+  "customerOrderId": 26080345,
+  "textChangeONT": "ONT",
+  "changeDeviceType": 3,
+  "startDate": "29/09/2021 15:28:14",
+  "camNumber": 1,
+  "lstStock": [
+    {
+      "stockTypeId": 401028932,
+      "stockModelCode": "CAMPTZ-HC2",
+      "stockModelName": "Camera trong nhà 360 - HC2",
+      "isUplink": 1
+    }
+  ],
+  "listTaskParam": [
+    {
+      "keyParam": "Cameratype",
+      "nameParam": "Loại Camera",
+      "valueParam": "MyCAM"
+    }
+  ]
+}
