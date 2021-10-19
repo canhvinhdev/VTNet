@@ -82,3 +82,5 @@ jdbc.driverClassName=f51f2109a7e795af74d7885cf97880aff4fcff1b59949b064ff3b2f9244
 jdbc.url=906cb53fd0c4499aac326cbc56d4c18411f99b3e510e0a76a579805b4ab5feebaacdce7f764cc6f2d863521a748349be
 jdbc.username=7e808787b71afaeb1ea24b7af89d5d6e
 jdbc.password=08a3b4375ccb235438f1cb7677178237
+
+http://10.240.202.199:9299/GnocMrOutsideServices/MrDeviceBtsService?wsdl
