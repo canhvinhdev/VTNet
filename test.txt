@@ -84,3 +84,6 @@ jdbc.username=7e808787b71afaeb1ea24b7af89d5d6e
 jdbc.password=08a3b4375ccb235438f1cb7677178237
 
 http://10.240.202.199:9299/GnocMrOutsideServices/MrDeviceBtsService?wsdl
+
+https://datasecurity.viettel.vn/s/6x058pvNIsjnXVq/gnoc-vsmartws-1-0-54-jar
+https://datasecurity.viettel.vn/s/Az6xj0naFbT6e8p/kttswlib-2-0-9-jar
