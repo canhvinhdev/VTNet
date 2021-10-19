@@ -92,3 +92,7 @@ https://datasecurity.viettel.vn/s/Az6xj0naFbT6e8p/kttswlib-2-0-9-jar
 http://10.240.202.199:9299/GnocMrOutsideServices/MrService?wsdl
 http://10.240.202.33:8338/WFMServerT3/VSmartWS?wsdl
 Link test Cơ điện: http://10.240.202.63:9599/ConcentrateWS/Eee2WS?wsdl
+
+https://datasecurity.viettel.vn/s/P1vsGUXFDMdSlfz/mr-device-bts-2-0-5-jar
+https://datasecurity.viettel.vn/s/pVYudrBwrXdkeIc/mrservice2-0-3-jar
+
