@@ -1,0 +1,144 @@
+
+
+
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+import java.net.URL;
+import java.security.InvalidKeyException;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SignatureException;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import java.util.Formatter;
+
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+import javax.net.ssl.*;
+
+public class HmacSha1Signature {
+    private static final String HMAC_SHA1_ALGORITHM = "HmacSHA1";
+
+    private static String toHexString(byte[] bytes) {
+        Formatter formatter = new Formatter();
+
+        for (byte b : bytes) {
+            formatter.format("%02x", b);
+        }
+
+        return formatter.toString();
+    }
+
+    public static String calculateRFC2104HMAC(String data, String key)
+            throws SignatureException, NoSuchAlgorithmException, InvalidKeyException {
+        SecretKeySpec signingKey = new SecretKeySpec(key.getBytes(), HMAC_SHA1_ALGORITHM);
+        Mac mac = Mac.getInstance(HMAC_SHA1_ALGORITHM);
+        mac.init(signingKey);
+        return toHexString(mac.doFinal(data.getBytes()));
+    }
+
+    public static void main(String[] args) throws Exception {
+        String accessKeyId = "viettel";
+        String sn = "ZTEEH7VL3903711";
+        String secretKey = "4cd4bc99e2394fa4a81ce2d47c1e4fe5fe24f2fbadf744b196e1ab0e91fa00e74d864f1397b942afb859a165847f4f9a04dae54eac7b48f296f6f836cde5289e";
+        String linkHomeWifi = "https://nbi.viettelhomewifi.com";
+        JSONObject jsonObject = new JSONObject();
+        String data = null;
+        StringBuilder url = new StringBuilder();
+        url.append("/viettel/north/devinfo");
+        url.append("?_ak=");
+        url.append(accessKeyId);
+        url.append("&_ts=").append(System.currentTimeMillis());
+        url.append("&SN=").append(sn);
+        try {
+            String sha1 = HmacSha1Signature.calculateRFC2104HMAC("GET"+ url.toString(), secretKey);
+            url.append("&_signature=").append(sha1);
+            data = sendURL(linkHomeWifi + url.toString());
+            jsonObject.put("data", data);
+        } catch (Exception exception) {
+
+        }
+        JSONObject object = new JSONObject(data);
+        System.out.println(object.getInt("code"));
+        System.out.println(object.getString("message"));
+        System.out.println(object.getString("data"));
+        JSONObject subObject = new JSONObject(object.getString("data"));
+        System.out.println(subObject.getString("BoundAccount"));
+
+
+       // String hmac = calculateRFC2104HMAC("GET/viettel/north/devinfo?_ak=viettel&_ts=1612681743&SN=ZTEEH7VL3903711", "4cd4bc99e2394fa4a81ce2d47c1e4fe5fe24f2fbadf744b196e1ab0e91fa00e74d864f1397b942afb859a165847f4f9a04dae54eac7b48f296f6f836cde5289e");
+
+        System.out.println(jsonObject);
+    }
+
+    private static String sendURL (String url) throws IOException, NoSuchAlgorithmException, KeyManagementException {
+        TrustManager();
+        URL obj = new URL(url);
+        HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
+        con.setRequestMethod("GET");
+        String inputLine;
+        StringBuilder response = new StringBuilder();
+        try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+            while ((inputLine = in.readLine()) != null) {
+                response.append(inputLine);
+            }
+        } catch (IOException ex) {
+            System.out.println(ex);
+        }
+        return response.toString();
+    }
+
+    private static void TrustManager() throws NoSuchAlgorithmException, KeyManagementException {
+        TrustManager[] trustAllCerts = new TrustManager[]{
+                new X509ExtendedTrustManager() {
+                    @Override
+                    public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+                        return null;
+                    }
+
+                    @Override
+                    public void checkClientTrusted(X509Certificate[] certs, String authType) {
+                    }
+
+                    @Override
+                    public void checkServerTrusted(X509Certificate[] certs, String authType) {
+                    }
+
+                    @Override
+                    public void checkClientTrusted(X509Certificate[] xcs, String string, Socket socket) throws CertificateException {
+                    }
+
+                    @Override
+                    public void checkServerTrusted(X509Certificate[] xcs, String string, Socket socket) throws CertificateException {
+                    }
+
+                    @Override
+                    public void checkClientTrusted(X509Certificate[] xcs, String string, SSLEngine ssle) throws CertificateException {
+                    }
+
+                    @Override
+                    public void checkServerTrusted(X509Certificate[] xcs, String string, SSLEngine ssle) throws CertificateException {
+                    }
+
+                }
+        };
+
+        SSLContext sc = SSLContext.getInstance("SSL");
+        sc.init(null, trustAllCerts, new java.security.SecureRandom());
+        HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+
+        // Create all-trusting host name verifier
+        HostnameVerifier allHostsValid = new HostnameVerifier() {
+            @Override
+            public boolean verify(String hostname, SSLSession session) {
+                return true;
+            }
+        };
+        // Install the all-trusting host verifier
+        HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
+    }
+}
