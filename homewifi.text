@@ -1,0 +1,39 @@
+  public @ResponseBody
+  String getTokenFromVTFamily(
+      HttpServletRequest request,
+      @RequestParam(value = "userAssignId", required = false) String userAssignId,
+          @RequestParam(value = "SN", required = false) String sn
+  ) throws IOException {
+    JSONObject jsonObject = new JSONObject();
+     StringBuilder url = new StringBuilder();
+     url.append("/viettel/north/devinfo");
+     url.append("?_ak=");
+     url.append(accessKeyId);
+     url.append("_ts=").append(System.currentTimeMillis());
+     url.append("&SN=").append(userAssignId);
+    try {
+      String sha1 = HmacSha1Signature.calculateRFC2104HMAC(url.toString(), secretKey);
+      url.append("&_signature=").append(sha1);
+      String data = sendURL(linkHomeWifi+ url.toString());
+      jsonObject.put("data", data);
+    } catch (Exception exception) {
+
+    }
+    return JacksonService.toJsonString(model);
+  }
+
+  private String sendURL (String url) throws IOException{
+    URL obj = new URL(url);
+      HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+      con.setRequestMethod("GET");
+      String inputLine;
+      StringBuilder response = new StringBuilder();
+      try (BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()))) {
+        while ((inputLine = in.readLine()) != null) {
+          response.append(inputLine);
+        }
+      } catch (IOException ex) {
+        log.error("IOException", ex);
+      }
+    return response.toString();
+  }
