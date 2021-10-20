@@ -96,3 +96,11 @@ Link test Cơ điện: http://10.240.202.63:9599/ConcentrateWS/Eee2WS?wsdl
 https://datasecurity.viettel.vn/s/P1vsGUXFDMdSlfz/mr-device-bts-2-0-5-jar
 https://datasecurity.viettel.vn/s/pVYudrBwrXdkeIc/mrservice2-0-3-jar
 
+
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20210307</version>
+</dependency>
