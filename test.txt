@@ -122,3 +122,5 @@ https://datasecurity.viettel.vn/s/pVYudrBwrXdkeIc/mrservice2-0-3-jar
       </ser:getDataJSon>
    </soapenv:Body>
 </soapenv:Envelope>
+
+http://10.240.202.199:8100/GnocTTOutsideServices/TroublesServiceForVSmart?wsdl
