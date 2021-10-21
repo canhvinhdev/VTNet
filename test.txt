@@ -104,3 +104,21 @@ https://datasecurity.viettel.vn/s/pVYudrBwrXdkeIc/mrservice2-0-3-jar
     <artifactId>json</artifactId>
     <version>20210307</version>
 </dependency>
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.incident.gnoc.viettel.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:getDataJSon>
+         <requestInputBO>
+            <code>VSMART_SERIAL_BY_WO_CODE</code>
+            <params>
+               <name>woCode</name>
+               <type>STRING</type>
+               <value>WO_MR_20200527_1704803</value>
+            </params>
+
+         </requestInputBO>
+      </ser:getDataJSon>
+   </soapenv:Body>
+</soapenv:Envelope>
