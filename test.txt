@@ -33,6 +33,25 @@
   <seller_phone>0965514332</seller_phone>
   <serviceLevel>SDWAN - Linh test</serviceLevel>
   <serviceTypeCode>M3</serviceTypeCode>
+  
+  
+  
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.incident.gnoc.viettel.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:getDataJSon>
+         <requestInputBO>
+            <code>VSMART_SERIAL_BY_WO_CODE</code>
+            <params>
+               <name>woCode</name>
+               <type>STRING</type>
+               <value>WO_MR_20200527_1704803</value>
+            </params>
+
+         </requestInputBO>
+      </ser:getDataJSon>
+   </soapenv:Body>
+</soapenv:Envelope>
   <speed></speed>
   <technology>0</technology>
   <tel_fax>0976333222</tel_fax>
