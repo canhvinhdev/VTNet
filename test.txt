@@ -147,3 +147,5 @@ http://10.240.202.199:8100/GnocTTOutsideServices/TroublesServiceForVSmart?wsdl
 https://datasecurity.viettel.vn/s/TJX6Q7NWbSEfEUf/gnoc-vsmartws-1-0-6-jar
 
 "BoundAccount":"h031_ftth_doicvhptdvtq2","ConfigurationVersion":"V9.0.0-VTEL","FirmwareVersion":"V9.0.0C8_VN1","MAC":"e0:19:54:a4:5b:34","MeshStatus":"controller","Model":"H196A V9","RegistrationTime":1618567164532,"Rssi":200,"SN":"ZTEEH7VL3903711","WanMode":"DHCP","lastOnlineTime":1633352762657,"onlineStatus":1}
+
+{"code":200,"message":"success","data":"{\"isSameMeshNetwork\":\"false\",\"isRSSISatisfied\":\"true\"}"}
