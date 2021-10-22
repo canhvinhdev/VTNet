@@ -1,0 +1,109 @@
+Phương Thức	URL	header	requet	response	Ghi CHÚ	SQL TẠO BẢNG	SERQ	
+POST	http://localhost:8060/QLCTKT/rest/homeWifiController/meshCheck	"Content-Type: application/x-www-form-urlencoded
+username: Tms_caugiay
+token: lấy từ login
+locale: en
+requetClientId: 33311"	"taskId: 185470
+snList: ZTEEH7VL9G00007,ZTEEH7VL4400008"	{"result":"{\"code\":\"200\",\"message\":\"success\",\"data\":\"{\\\"isSameMeshNetwork\\\":\\\"false\\\",\\\"isRSSISatisfied\\\":\\\"true\\\"}\"}"}	"Lưu log trong bảng LOG_HOME_WIFI với TYPE = 2 và theo TASK_ID
+
+LOG file:
+
+HOMEWIFI | getMeshCheck  request {}
+'- statusCode == 200
+HOMEWIFI | getMeshCheck result {}
+'- != 200
+HOMEWIFI | getMeshCheck status {}
+'- Exception
+HOMEWIFI | getMeshCheck Exception: {}"	"
+  CREATE TABLE ""QLCTKT"".""LOG_HOME_WIFI"" 
+   ( ""ID"" NUMBER(11,0) NOT NULL ENABLE, 
+ ""ACCOUNT"" NVARCHAR2(50), 
+ ""USER_ID"" NUMBER(11,0), 
+ ""TASK_ID"" NUMBER(11,0), 
+ ""USER_IP"" NVARCHAR2(50), 
+ ""WS_FUNCTION"" NVARCHAR2(50), 
+ ""INPUT"" NVARCHAR2(3000), 
+ ""OUTPUT"" NVARCHAR2(3000), 
+ ""CREATE_DATE"" DATE, 
+ ""WAN_MODE"" NVARCHAR2(50), 
+ ""CONFIGURATION_VERSION"" NVARCHAR2(100), 
+ ""ONLINE_STATUS"" NUMBER(1,0), 
+ ""SN"" NVARCHAR2(100), 
+ ""BOUND_ACCOUNT"" NVARCHAR2(50), 
+ ""FIRMWARE_VERSION"" NVARCHAR2(50), 
+ ""RSSI"" NUMBER(11,0), 
+ ""TYPE"" NUMBER(1,0), 
+ ""IS_SAME_MESH_NETWORK"" NVARCHAR2(20), 
+ ""IS_RSSI_SATISFIED"" NVARCHAR2(20), 
+  CONSTRAINT ""ACTION_LOG_HOME_WIFI_PK"" PRIMARY KEY (""ID"")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE ""QLCTKT""  ENABLE
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE ""QLCTKT"" ;
+"	CREATE SEQUENCE  "QLCTKT"."LOG_HOME_WIFI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE ;	
+POST	http://localhost:8060/QLCTKT/rest/homeWifiController/deviceInfo	"Content-Type: application/x-www-form-urlencoded
+username: Tms_caugiay
+token: lấy từ login
+locale: en
+requetClientId: 33311"	"taskId: 185470
+sn: ZTEEH7VL9G00007"	{"result":"{\"code\":\"200\",\"message\":\"success\",\"data\":\"{\\\"BoundAccount\\\":\\\"02552870518\\\",\\\"ConfigurationVersion\\\":\\\"V9.0.0-VTEL\\\",\\\"FirmwareVersion\\\":\\\"V9.0.0C8_VN1_ENG\\\",\\\"MAC\\\":\\\"00:19:c6:51:d0:18\\\",\\\"MeshStatus\\\":\\\"controller\\\",\\\"Model\\\":\\\"H196A V9\\\",\\\"RegistrationTime\\\":1610353380661,\\\"Rssi\\\":200,\\\"SN\\\":\\\"ZTEEH7VL9G00007\\\",\\\"WanMode\\\":\\\"PPPOE\\\",\\\"lastOnlineTime\\\":1612421201986,\\\"onlineStatus\\\":0}\"}"}	"Lưu log trong bảng LOG_HOME_WIFI với TYPE = 1 và theo TASK_ID
+
+LOG file:
+
+HOMEWIFI | getDeviceInfo  request {}
+'- statusCode == 200
+HOMEWIFI | getDeviceInfo result {}
+'- != 200
+HOMEWIFI | getDeviceInfo status {}
+'- Exception
+HOMEWIFI | getDeviceInfo Exception: {}"			
+POST	http://localhost:8060/QLCTKT/rest/homeWifiController/getListSubGooods	"Content-Type: application/x-www-form-urlencoded
+username: Tms_caugiay
+token: lấy từ login
+locale: en
+requetClientId: 33311"	taskId: 185470	{"result":{"lstSubGoodsDTO":[{"sourceId":1,"reclaimDatetime":"","description":"","reclaimPayMethodName":"","type":"","lstAccessories":[],"checkHomeWifi":2,"smartCode3":"","smartCode2":"","smartCode1":"","price":0,"saleServiceId":0,"stockTypeName":"","stockTypeId":7,"actionCode":"","reclaimCommitmentCode":"3","stockModelId":201388,"stockModelName":"iphone 4","deviceType":"","serialToRetrieve":"","quantity":0,"updateDatetime":{"XMLSchemaType":{"localPart":"dateTime","prefix":"","namespaceURI":"http://www.w3.org/2001/XMLSchema"},"eon":0,"year":2021,"fractionalSecond":0,"timezone":420,"millisecond":-2147483648,"eonAndYear":2021,"minute":44,"second":37,"valid":true,"hour":16,"month":10,"day":15},"partnerName":"","reclaimPayMethod":"","showSubgoodsDetail":false,"updateUser":"HANTT","reclaimAmount":"","gponSerial":"","reclaimProCodeName":"","vasCode":"","createDatetime":{"XMLSchemaType":{"localPart":"dateTime","prefix":"","namespaceURI":"http://www.w3.org/2001/XMLSchema"},"eon":0,"year":2021,"fractionalSecond":0,"timezone":420,"millisecond":-2147483648,"eonAndYear":2021,"minute":44,"second":37,"valid":true,"hour":16,"month":10,"day":15},"subId":60000205525,"reclaimProCode":"","imRequest":0,"reclaimCommitmentTime":"","disableSerial":false,"serial":"","subGoodsId":276479096,"saleTransId":0,"createUser":"HANTT","partnerId":0,"stockModelCode":"","reclaimCommitmentName":"","status":"1"}],"description":"success","lstSubGoodsReSelect":[],"responseCode":"1"}}	"checkHomeWifi"":2 là chưa check chất lượng
+checkHomeWifi"":1 là Đã check chất lượng
+"	"  CREATE TABLE ""QLCTKT"".""CAT_HOME_WIFI"" 
+   ( ""ID"" NUMBER(11,0) NOT NULL ENABLE, 
+ ""TASK_ID"" NUMBER(11,0), 
+ ""SERIAL"" NVARCHAR2(50), 
+ ""CREATE_DATE"" DATE, 
+  CONSTRAINT ""CAT_HOME_WIFI_PK"" PRIMARY KEY (""ID"")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 
+  TABLESPACE ""QLCTKT""  ENABLE
+   ) SEGMENT CREATION DEFERRED 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  TABLESPACE ""QLCTKT"" ;"	   CREATE SEQUENCE  "QLCTKT"."CAT_HOME_WIFI_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;	
+POST	http://localhost:8060/QLCTKT/rest/homeWifiController/updateSerialSubGoodsHomeWifi	"Content-Type: application/x-www-form-urlencoded
+username: Tms_caugiay
+token: lấy từ login
+locale: en
+requetClientId: 33311"	"taskId: 185470
+lstSubGoods: [
+            {
+    ""subGoodsId"":""1"",
+    ""subId"": ""1"",
+    ""serial"":""1""
+            }
+        ]"	{"result":{"lstSubGoodsDTO":[],"description":"Thiết bị truyền vào không hợp lệ (subId)","lstSubGoodsReSelect":[],"responseCode":"R3944133_6"}}	LƯU vài bảng CAT_HOME_WIFI để check serial đã check chất lượng chưa			
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
