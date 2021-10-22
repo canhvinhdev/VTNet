@@ -143,3 +143,5 @@ https://datasecurity.viettel.vn/s/pVYudrBwrXdkeIc/mrservice2-0-3-jar
 </soapenv:Envelope>
 
 http://10.240.202.199:8100/GnocTTOutsideServices/TroublesServiceForVSmart?wsdl
+
+https://datasecurity.viettel.vn/s/TJX6Q7NWbSEfEUf/gnoc-vsmartws-1-0-6-jar
