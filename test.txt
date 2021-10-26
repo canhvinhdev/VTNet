@@ -149,3 +149,20 @@ https://datasecurity.viettel.vn/s/TJX6Q7NWbSEfEUf/gnoc-vsmartws-1-0-6-jar
 "BoundAccount":"h031_ftth_doicvhptdvtq2","ConfigurationVersion":"V9.0.0-VTEL","FirmwareVersion":"V9.0.0C8_VN1","MAC":"e0:19:54:a4:5b:34","MeshStatus":"controller","Model":"H196A V9","RegistrationTime":1618567164532,"Rssi":200,"SN":"ZTEEH7VL3903711","WanMode":"DHCP","lastOnlineTime":1633352762657,"onlineStatus":1}
 
 {"code":200,"message":"success","data":"{\"isSameMeshNetwork\":\"false\",\"isRSSISatisfied\":\"true\"}"}
+
+
+{
+    "data": "[{\"serial\":\"ZTEEH7VL9G00007\",\"result\":\"{\\\"code\\\":\\\"200\\\",\\\"message\\\":\\\"success\\\",\\\"data\\\":\\\"{\\\\\\\"BoundAccount\\\\\\\":\\\\\\\"02552870518\\\\\\\",\\\\\\\"ConfigurationVersion\\\\\\\":\\\\\\\"V9.0.0-VTEL\\\\\\\",\\\\\\\"FirmwareVersion\\\\\\\":\\\\\\\"V9.0.0C8_VN1_ENG\\\\\\\",\\\\\\\"MAC\\\\\\\":\\\\\\\"00:19:c6:51:d0:18\\\\\\\",\\\\\\\"MeshStatus\\\\\\\":\\\\\\\"controller\\\\\\\",\\\\\\\"Model\\\\\\\":\\\\\\\"H196A V9\\\\\\\",\\\\\\\"RegistrationTime\\\\\\\":1610353380661,\\\\\\\"Rssi\\\\\\\":200,\\\\\\\"SN\\\\\\\":\\\\\\\"ZTEEH7VL9G00007\\\\\\\",\\\\\\\"WanMode\\\\\\\":\\\\\\\"PPPOE\\\\\\\",\\\\\\\"lastOnlineTime\\\\\\\":1612421201986,\\\\\\\"onlineStatus\\\\\\\":0}\\\"}\"},{\"serial\":\"ZTEEH7VL440000\",\"result\":\"{\\\"code\\\":\\\"-32098\\\",\\\"message\\\":\\\"The device does not exist:ZTEEH7VL440000\\\"}\"}]",
+    "status": "OK"
+}
+listSN: [ZTEEH7VL9G00007,ZTEEH7VL440000]
+
+
+{
+    "result": {
+        "result": "{\"code\":\"-32098\",\"message\":\"The device does not exist:[ZTEEH7VL9G000]\"}",
+        "status": "OK"
+    },
+    "type": 1
+}
+
