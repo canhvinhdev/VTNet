@@ -159,10 +159,17 @@ listSN: [ZTEEH7VL9G00007,ZTEEH7VL440000]
 
 
 {
-    "result": {
-        "result": "{\"code\":\"-32098\",\"message\":\"The device does not exist:[ZTEEH7VL9G000]\"}",
-        "status": "OK"
-    },
-    "type": 1
+    "code": 0,
+    "data": "[{\"serial\":\"ZTEEH7VL9G00007\",\"code\":0,\"data\":\"{\\\"BoundAccount\\\":\\\"02552870518\\\",\\\"ConfigurationVersion\\\":\\\"V9.0.0-VTEL\\\",\\\"FirmwareVersion\\\":\\\"V9.0.0C8_VN1_ENG\\\",\\\"MAC\\\":\\\"00:19:c6:51:d0:18\\\",\\\"MeshStatus\\\":\\\"controller\\\",\\\"Model\\\":\\\"H196A V9\\\",\\\"RegistrationTime\\\":1610353380661,\\\"Rssi\\\":200,\\\"SN\\\":\\\"ZTEEH7VL9G00007\\\",\\\"WanMode\\\":\\\"PPPOE\\\",\\\"lastOnlineTime\\\":1612421201986,\\\"onlineStatus\\\":0}\"},{\"serial\":\"ZTEEH7VL440000\",\"code\":2,\"errorMsg\":\"The device does not exist:ZTEEH7VL440000\"}]"
 }
+
+
+{"errorMsg":"The device does not exist:[ZTEEH7VL9G000]","type":1,"code":2}
+
+  public interface HOME_WIFI_RESPONSE_STATUS {
+    Long SUCCESS = 0L;
+    Long EXCEPTION = 1L;
+    Long ERROR_CODE = 2L;
+    Long ERROR_CODE_SUCCESS = 3L;
+  }
 
