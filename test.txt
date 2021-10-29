@@ -178,3 +178,8 @@ WHERE INVEST_TYPE IS NULL AND LOCATION_LEVEL = 3
 START WITH DEPARTMENT_ID = ?
 CONNECT BY PRIOR DEPARTMENT_ID = PARENT_ID 
 ORDER BY nlssort(dept_name,'NLS_SORT = VIETNAMESE') ASC
+
+
+
+https://datasecurity.viettel.vn/s/jR6tbOZL8npZg8V/backend-1-zip
+https://datasecurity.viettel.vn/s/K5u7tOJVpKJ7xV6/frontend-zip
