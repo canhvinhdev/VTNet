@@ -188,3 +188,5 @@ Hibernate: select * from ( SELECT * from E_DOCUMENT where upper(EDOCUMENT_NAME) 
 
 https://datasecurity.viettel.vn/s/jR6tbOZL8npZg8V/backend-1-zip
 https://datasecurity.viettel.vn/s/K5u7tOJVpKJ7xV6/frontend-zip
+
+https://datasecurity.viettel.vn/s/kExApbyZ7rIGVYQ/pmqtvp-war
