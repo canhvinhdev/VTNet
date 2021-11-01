@@ -298,3 +298,5 @@ https://datasecurity.viettel.vn/s/kExApbyZ7rIGVYQ/pmqtvp-war
       </ord:loadSerial>
    </soapenv:Body>
 </soapenv:Envelope>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>h004_gftth_hihip0</accountOrIsdn><majeure>1</majeure><reasonCode>LV1371</reasonCode><reasonName>Thêm nguyên nhân 1&amp;2&amp;3_edit_phuongnt; abc; Thêm nguyên nhân 1&amp;2&amp;3 : aht test</reasonName><subOrderId>58675</subOrderId><taskType>65</taskType></ParamInputBO>
