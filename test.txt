@@ -216,3 +216,85 @@ https://datasecurity.viettel.vn/s/kExApbyZ7rIGVYQ/pmqtvp-war
          <arg0><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>C376349737</accountOrIsdn><subOrderId>165698</subOrderId><taskType>2</taskType></ParamInputBO>]]></arg0>       </ord:getStockTypeRequest>
    </soapenv:Body>
 </soapenv:Envelope>
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://order.service.sale.bccs.viettel.com/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-32ce50e8-4a5d-4040-af71-c3428d92daa7">
+            <wsse:Username>sale</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">sale</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <web:genericWebInfo xmlns:web="http://service.ws.viettel.com/">
+         <web:language>vi</web:language>
+         <web:country>VN</web:country>
+         <web:ipAddress>10.240.232.69</web:ipAddress>
+         <web:portAddress>#PortAddress</web:portAddress>
+         <web:sessionId>#SessionId</web:sessionId>
+         <web:staffCode>thanhlv12</web:staffCode>
+         <web:shopCode>337</web:shopCode>
+      </web:genericWebInfo>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ord:loadSerial>
+         <!--Optional:-->
+         <areaCode>1000</areaCode><staffIdNo>134134134</staffIdNo><stockModelId>21013</stockModelId>
+      </ord:loadSerial>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://order.service.sale.bccs.viettel.com/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-32ce50e8-4a5d-4040-af71-c3428d92daa7">
+            <wsse:Username>sale</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">sale</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <web:genericWebInfo xmlns:web="http://service.ws.viettel.com/">
+         <web:language>vi</web:language>
+         <web:country>VN</web:country>
+         <web:ipAddress>10.240.232.69</web:ipAddress>
+         <web:portAddress>#PortAddress</web:portAddress>
+         <web:sessionId>#SessionId</web:sessionId>
+         <web:staffCode>thanhlv12</web:staffCode>
+         <web:shopCode>337</web:shopCode>
+      </web:genericWebInfo>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ord:loadSerial>
+         <!--Optional:-->
+         <areaCode>1000</areaCode><staffIdNo>134134134</staffIdNo><stockModelId>45687</stockModelId>
+      </ord:loadSerial>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://order.service.sale.bccs.viettel.com/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-32ce50e8-4a5d-4040-af71-c3428d92daa7">
+            <wsse:Username>sale</wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">sale</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <web:genericWebInfo xmlns:web="http://service.ws.viettel.com/">
+         <web:language>vi</web:language>
+         <web:country>VN</web:country>
+         <web:ipAddress>10.240.232.69</web:ipAddress>
+         <web:portAddress>#PortAddress</web:portAddress>
+         <web:sessionId>#SessionId</web:sessionId>
+         <web:staffCode>thanhlv12</web:staffCode>
+         <web:shopCode>337</web:shopCode>
+      </web:genericWebInfo>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ord:loadSerial>
+         <!--Optional:-->
+         <areaCode>1000</areaCode><staffIdNo>134134134</staffIdNo><stockModelId>33624</stockModelId>
+      </ord:loadSerial>
+   </soapenv:Body>
+</soapenv:Envelope>
