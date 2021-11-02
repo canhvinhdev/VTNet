@@ -313,3 +313,7 @@ https://datasecurity.viettel.vn/s/7UimN0tc5bwggBS/vtnet360-config-zip
 
 Serial hàng hóa bạn nhập khi nghiệm thu không trùng với serial hàng hóa khi đấu nối, bạn vui lòng kiểm tra lại
 https://datasecurity.viettel.vn/s/CHtG5VQCRKtHAep/pmqtvp-war
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>C946222222</accountOrIsdn><progress>14</progress><serviceType>G</serviceType><shopCode>HNI09</shopCode><staffIdNo>134134134</staffIdNo><subOrderId>165944</subOrderId><taskType>57</taskType><teamCode>HNI09</teamCode></ParamInputBO>
+Bạn phải nhập danh sách hàng hóa..
