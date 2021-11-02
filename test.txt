@@ -300,3 +300,7 @@ https://datasecurity.viettel.vn/s/kExApbyZ7rIGVYQ/pmqtvp-war
 </soapenv:Envelope>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>h004_gftth_hihip0</accountOrIsdn><majeure>1</majeure><reasonCode>LV1371</reasonCode><reasonName>Thêm nguyên nhân 1&amp;2&amp;3_edit_phuongnt; abc; Thêm nguyên nhân 1&amp;2&amp;3 : aht test</reasonName><subOrderId>58675</subOrderId><taskType>65</taskType></ParamInputBO>
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>C946222222</accountOrIsdn><lstAPStockModelBean><bonusLimit>0</bonusLimit><chiphi>0</chiphi><cost>0</cost><price>0</price><quantityFee>0</quantityFee><serial>10000000032</serial><stockModelId>21013</stockModelId><stockModelName>Camera trong nhà xoay được</stockModelName><subStockModelRelId>276481675</subStockModelRelId><totalFeeBonus>0</totalFeeBonus><warningLimit>0</warningLimit></lstAPStockModelBean><lstAPStockModelBean><bonusLimit>0</bonusLimit><chiphi>0</chiphi><cost>0</cost><price>0</price><quantityFee>0</quantityFee><serial>10000000022</serial><stockModelId>21013</stockModelId><stockModelName>Camera trong nhà xoay được</stockModelName><subStockModelRelId>276481675</subStockModelRelId><totalFeeBonus>0</totalFeeBonus><warningLimit>0</warningLimit></lstAPStockModelBean><progress>14</progress><serviceType>G</serviceType><shopCode>HNI09</shopCode><staffIdNo>134134134</staffIdNo><subOrderId>165944</subOrderId><taskType>57</taskType><teamCode>HNI09</teamCode></ParamInputBO>
