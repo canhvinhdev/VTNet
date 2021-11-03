@@ -317,3 +317,7 @@ https://datasecurity.viettel.vn/s/CHtG5VQCRKtHAep/pmqtvp-war
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>C946222222</accountOrIsdn><progress>14</progress><serviceType>G</serviceType><shopCode>HNI09</shopCode><staffIdNo>134134134</staffIdNo><subOrderId>165944</subOrderId><taskType>57</taskType><teamCode>HNI09</teamCode></ParamInputBO>
 Bạn phải nhập danh sách hàng hóa..
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamInputBO><accountOrIsdn>h004_gftth_hihip0</accountOrIsdn><majeure>1</majeure><reasonCode>LV1371</reasonCode><reasonName>Thêm nguyên nhân 1&amp;2&amp;3_edit_phuongnt; abc; Thêm nguyên nhân 1&amp;2&amp;3 : aht</reasonName><subOrderId>58675</subOrderId><taskType>65</taskType></ParamInputBO>
+
+[SALE1989] Chưa cấu hình danh sách loại tác động được cập nhật
