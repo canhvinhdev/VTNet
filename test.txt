@@ -351,3 +351,6 @@ Bạn phải nhập danh sách hàng hóa..
 
 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:finishTaskResponse xmlns:ns2="http://order.service.sale.bccs.viettel.com/" xmlns:ns3="http://ws.dvgt.viettel.com/" xmlns:ns4="http://webservice.pm.viettel.com/"><return><description>Exception</description><responseCode>-1</responseCode></return></ns2:finishTaskResponse></soap:Body></soap:Envelope>
+
+
+https://datasecurity.viettel.vn/s/Bg0zR8VUl1Vaoag/mrservice2-0-4-jar
