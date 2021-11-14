@@ -354,3 +354,6 @@ Bạn phải nhập danh sách hàng hóa..
 
 
 https://datasecurity.viettel.vn/s/Bg0zR8VUl1Vaoag/mrservice2-0-4-jar
+
+
+http://10.240.202.199:8113/GnocVsmartServices/VSmartWS?wsdl
