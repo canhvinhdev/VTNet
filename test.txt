@@ -357,3 +357,6 @@ https://datasecurity.viettel.vn/s/Bg0zR8VUl1Vaoag/mrservice2-0-4-jar
 
 
 http://10.240.202.199:8113/GnocVsmartServices/VSmartWS?wsdl
+
+javax.xml.ws.WebServiceException: Failed to access the WSDL at: http://10.58.71.138:8153/KTTS2_SERVICE/VSmartService?wsdl. It failed with: 
+	JAR entry META-INF/wsdl/10.58.71.138_8153/KTTS2_SERVICE/VSmartService.wsdl not found in C:\Users\vtn-ptpm-nv41\.m2\repository\com\viettel\kttswslib\2.0.9\kttswslib-2.0.9.jar.
