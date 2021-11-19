@@ -1,3 +1,4 @@
+https://datasecurity.viettel.vn/s/VTWOGvlS2AWZuel/gnoc-vsmartws-1-0-59-jar
 <bccs:jobCreationBccsShop><gtm>
   <account>h004_sdw_hl17</account>
   <appointDate>23/09/2021 00:00:00</appointDate>
