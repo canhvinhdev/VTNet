@@ -367,3 +367,5 @@ javax.xml.ws.WebServiceException: Failed to access the WSDL at: http://10.58.71.
 	connectorController/getConnectorCode   post  @RequestParam(required = false, value = "stationCode") String stationCode
 	
 	https://datasecurity.viettel.vn/s/fMC3JsiooVojI7d/gnoc-vsmartws-1-0-58-jar
+
+com.sun.xml.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: String index out of range: -55 Please see the server log to find more detail regarding exact cause of the failure.
