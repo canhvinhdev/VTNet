@@ -1,5 +1,8 @@
 https://datasecurity.viettel.vn/s/qeA0Os3hma1Z5na/fe-zip
 https://datasecurity.viettel.vn/s/XUbSROwcFDPOzvL/be-zip
+http://10.60.156.28:8813/SALE_SERVICE/bpm/sale/UpdateTaskService	
+
+
 
 https://datasecurity.viettel.vn/s/VTWOGvlS2AWZuel/gnoc-vsmartws-1-0-59-jar
 <bccs:jobCreationBccsShop><gtm>
