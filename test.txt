@@ -395,3 +395,6 @@ com.sun.xml.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from s
       </ser:getListSeriesCause>
    </soapenv:Body>
 </soapenv:Envelope>
+
+
+https://datasecurity.viettel.vn/s/VTWOGvlS2AWZuel/gnoc-vsmartws-1-0-59-jar
