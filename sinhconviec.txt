@@ -1,0 +1,71 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bccs="http://bccs.qlctkt.viettel.com/"><soapenv:Header><wsse:Security xmlns:mustUnderstand="0" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsse:UsernameToken><wsse:Username>6dcdc7f000c3e56b</wsse:Username><wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">d6847257b35cbcd85f63724936bc76a5</wsse:Password></wsse:UsernameToken></wsse:Security></soapenv:Header><soapenv:Body><bccs:jobCreationBccsShop><gtm>
+  <account>h004_sdw_txt7</account>
+  <appointDate>24/11/2021 16:33:59</appointDate>
+  <bandwidth></bandwidth>
+  <cmVersion>2</cmVersion>
+  <contactName>Tran Xuan Truong</contactName>
+  <contract_no>5000055896/VT/21092021</contract_no>
+  <cusAddress>Tá»• 1, YÃªn HÃ²a Cáº§u Giáº¥y HÃ  Ná»™i</cusAddress>
+  <cusName>Tran Xuan Truong</cusName>
+  <dateSales>23/11/2021 16:33:59</dateSales>
+  <deployAddress>Tá»• 1, YÃªn HÃ²a Cáº§u Giáº¥y HÃ  Ná»™i</deployAddress>
+  <deployAddressCode>H004007002001</deployAddressCode>
+  <deptCode>HNI09</deptCode>
+  <description>0898089886</description>
+  <deviceType>2</deviceType>
+  <identityNum>123454321</identityNum>
+  <isGlineExist>0</isGlineExist>
+  <isMultilPointService>0</isMultilPointService>
+  <subId>60000202230</subId>
+  <lineAccount>h004_line_23850967</lineAccount>
+  <moreService>
+    <parentReq>132411</parentReq>
+    <serviceCode>M3</serviceCode>
+    <subReq>167825</subReq>
+    <productCode>SDWAN</productCode>
+  </moreService>
+  <numberPoint>1</numberPoint>
+  <pass>ENC(c027ef4e443780a61bc9e418938afa26)</pass>
+  <productCode>SDWAN</productCode>
+  <reqType>57</reqType>
+  <seller>VTT1</seller>
+  <sellerFullName>vtt1</sellerFullName>
+  <seller_phone>0965514332</seller_phone>
+  <serviceLevel>SDWAN - Linh test</serviceLevel>
+  <serviceTypeCode>M3</serviceTypeCode>
+  <speed></speed>
+  <technology>0</technology>
+  <tel_fax>0898089886</tel_fax>
+  <tel_mobile>0898089886</tel_mobile>
+  <telephone>0898089886</telephone>
+  <user>6dcdc7f000c3e56b</user>
+  <districtCode>H004007</districtCode>
+  <customerOrderId>132411</customerOrderId>
+  <subOrderId>167825</subOrderId>
+  <sessionId>8490A75C24B94CE91AD3DD37E3AD3E8A@376461454285056</sessionId>
+  <ipPortParentNode>10.60.156.28:8813</ipPortParentNode>
+  <changeDeviceType>3</changeDeviceType>
+  <startDate>24/11/2021 16:33:59</startDate>
+  <lstStock>
+    <stockTypeId>28984</stockTypeId>
+    <stockModelCode>Fortigate-50E</stockModelCode>
+    <stockModelName>Fortigate-50E</stockModelName>
+    <isUplink>1</isUplink>
+  </lstStock>
+  <listTaskParam>
+    <keyParam>busType</keyParam>
+    <nameParam>BUS_TYPE</nameParam>
+    <valueParam>VIE</valueParam>
+  </listTaskParam>
+  <listTaskParam>
+    <keyParam>cusType</keyParam>
+    <nameParam>Loáº¡i khÃ¡ch hÃ ng</nameParam>
+    <valueParam>Tu nhan trong nuoc</valueParam>
+  </listTaskParam>
+  <listTaskParam>
+    <keyParam>cusGroup</keyParam>
+    <nameParam>NhÃ³m khÃ¡ch hÃ ng</nameParam>
+    <valueParam>KhÃ¡ch hÃ ng cÃ¡ nhÃ¢n trong nÆ°á»›c</valueParam>
+  </listTaskParam>
+  <cusGroupType>1</cusGroupType>
+</gtm></bccs:jobCreationBccsShop></soapenv:Body></soapenv:Envelope>
