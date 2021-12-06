@@ -26,3 +26,6 @@
 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:loadSerialSdWanResponse xmlns:ns2="http://order.service.sale.bccs.viettel.com/" xmlns:ns3="http://webservice.pm.viettel.com/"><return><description>Mã yêu cầu không tồn tại</description><responseCode>false</responseCode></return></ns2:loadSerialSdWanResponse></soap:Body></soap:Envelope>
 http://10.60.108.84:9015/BCCS_SHOP_WS/BccsService?wsdl
+
+
+https://datasecurity.viettel.vn/s/ULulkm7nENGzQqB/bccs-shop-1-0-17-jar
